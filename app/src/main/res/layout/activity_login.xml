@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".activity.LoginActivity">
+    
+    <ImageView
+        android:id="@+id/img_login"
+        android:src="@drawable/login"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <EditText
+        android:id="@+id/edit_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="@string/edit_login"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:drawablePadding="4dp"/>
+    <EditText
+        android:id="@+id/edit_password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_password"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="4dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_signin_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Sign In"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/txt_register_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_txtregister_txt"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

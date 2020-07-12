@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyQuizzApp</string>
+    <string name="edit_login">Login</string>
+    <string name="edit_password">Password</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_email">Email</string>
+    <string name="login_txtregister_txt">Click here to register</string>
+    <string name="question_1">I drive at the same speed as the two wheels</string>
+    <string name="qst_1_choix_1"> I accelerate </string>
+    <string name="qst_1_choix_2"> I move right immediately </string>
+    <string name="qst_1_choix_3"> Im slowing down </string>
+    <string name="question_2">the most important clue is :</string>
+    <string name="qst_2_choix_1"> ground marking </string>
+    <string name="qst_2_choix_2"> the drivers gaze </string>
+    <string name="question_3">this panel ends :</string>
+    <string name="qst_3_choix_1"> to previous speed limits </string>
+    <string name="qst_3_choix_2"> the ban on passing</string>
+    <string name="qst_3_choix_3">  prohibited from parking </string>
+    <string name="question_4">I can still pass </string>
+    <string name="qst_4_choix_1"> yes </string>
+    <string name="qst_4_choix_2"> no </string>
+</resources>

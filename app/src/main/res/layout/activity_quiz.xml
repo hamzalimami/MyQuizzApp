@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activity.QuizActivity">
+
+
+    <ImageView
+        android:src="@drawable/accident1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <RadioButton
+            android:id="@+id/radio_qs1_ch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst_1_choix_1"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:background="@drawable/radio_design"/>
+        <RadioButton
+            android:id="@+id/radio_qs1_ch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst_1_choix_2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/radio_design"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:id="@+id/radio_qs1_ch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/qst_1_choix_3"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/radio_design"
+            android:textSize="30sp"/>
+    </RadioGroup>
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:text="Next"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+
+
+
+
+
+</LinearLayout>
